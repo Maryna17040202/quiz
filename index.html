@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Супер квиз</title>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+
+    <header>
+
+        <div class="box-navigation">
+
+            <div class="box-navigation-logo">
+                <img src="img/Super-Quiz.png" alt="logo">
+            </div>
+
+            <div class="box-navigation-menu">
+                <a href="#">Главная</a>
+                <a href="#">Квиз</a>
+                <a href="#">Отзывы</a>
+                <div class="menu">
+                    <a href="#">Не главная</a>
+                    <div class="menu-content">
+                        <a href="">Подпункт</a>
+                        <a href="">Ещё подпункт</a>
+                        <a href="">И ещё один подпункт </a>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="box-navigation-info">
+                <div class="box-navigation-info-btn">
+                    <button id="openBtn">Связаться с нами</button>
+                </div>
+                <div class="box-navigation-info-a">
+                    <a href=""><img src="img/favicon/image-1.png" alt="tiktok"></a>
+                    <a href=""><img src="img/favicon/image-2.png" alt="VK"></a>
+                    <a href=""><img src="img/favicon/image-3.png" alt="telegram"></a>
+                </div>
+            </div>
+
+            <div id="myNav" class="overlay">
+                
+
+                <img id="myNavClose"  class="closebtn" src="img/favicon/Frame-12.png" alt="cross">
+                    <div class="container-ticket">
+                        <div class="container-title">
+                            <h1>
+                                Заполните контактные данные
+                            </h1>
+
+                            <p>
+                                Пройди квиз, и будешь счастлив. Этот квиз предназначен для тех людей, которые любят проходить тесты!
+                            </p>
+                        </div>
+    
+                        
+                        <form action="form">
+                            <div class="containet-data-human">
+                                <div class="arrival-date"> 
+                                    <input type="text" name="val"  placeholder="Ваше имя" required>
+                                </div>
+                                <div class="date-of-departure">
+                                    <input type="text" name="val"   placeholder="Фамилия" required>
+                                </div>
+                                <div class="quantity" >
+                                    <input type="text" name="val" id="human" placeholder="Ваш комментарий" required>
+                                </div>
+                                
+                            </div>
+
+                            <div class="quiz-test">
+                                <p>
+                                    Этот квиз предназначен для тех людей, которые любят проходить тесты!
+                                </p>
+                            </div>
+
+                            <div class="box-radio-btn-modal">
+                                            
+                                <div class="radio-btn-modal">
+                                    <input type="radio" name="test" id="no" value="no">
+                                    <label for="no">Не знаю </label>
+                                </div>
+                                
+                                <div class="radio-btn-modal">
+                                    <input type="radio" name="test" id="yes" value="yes">
+                                    <label for="yes">Увидел это</label>
+                                </div>
+
+                                <div class="radio-btn-modal">
+                                    <input type="radio" name="test" id="force" value="force">
+                                    <label for="force">Вон то</label>
+                                </div>
+                                
+                                <div class="radio-btn-modal">
+                                    <input type="radio" name="test" id="notToLove" value="notToLove">
+                                    <label for="notToLove">Вон то</label>
+                                </div>
+
+                                <div class="radio-btn-modal">
+                                    <input type="radio" name="test" id="notToLove" value="notToLove">
+                                    <label for="notToLove">Увидел это</label>
+                                </div>
+
+                                <div class="radio-btn-modal">
+                                    <input type="radio" name="test" id="notToLove" value="notToLove">
+                                    <label for="notToLove">Не знаю</label>
+                                </div> 
+                            </div>
+                            
+                            <div class="submit-input">
+                                <input id="submit" type="submit" value="Продолжить">
+                            </div>
+                        </form>
+                       
+                  
+                </div>
+              </div>
+
+            <div class="hamb">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+
+        </div>
+
+
+       <div class="box-content">
+            <div class="box-content-left img">
+                <img src="img/question-left.png" alt="question-left">
+            </div>
+            <div class="box-content-text">
+                <h1>
+                    Это Супер-квиз!
+                </h1>
+                <p>
+                    Пройди квиз, и будешь счастлив. Этот квиз предназначен для тех людей, которые любят проходить тесты!
+                </p>
+                <button>
+                    Пройти супер-квиз
+                </button>
+            </div>
+            <div class="box-content-right">
+                <img src="img/question-right.png" alt="question-right">
+            </div>
+       </div>
+
+    </header>
+
+    <main>
+
+        <div class="box-smiley">
+            <img src="img/amazing.png" alt="amazing">
+            <img src="img/as-good-as-it-gets.png" alt="as-good-as-it-gets">
+            <img src="img/where-can-I-ind-more.png" alt="where-can-I-ind-more">
+            <img src="img/clearly-in-kind.png" alt="clearly-in-kind">
+            <img src="img/cool.png" alt="cool">
+        </div>
+
+        <div class="box">
+            <div class="box-one">
+                <div >
+                    <div class="box-click-one">
+                        <h1 class="box-click-test">
+                            Какие виды тестов вам нравятся?
+                        </h1>
+                    </div>
+                    
+                    <div class="box-click-two">
+                        <h1 class="box-click-test-two">
+                            Вы любите проходить тесты?
+                        </h1>
+                    </div>
+
+                    <div class="box-click-three">
+                        <h1 class="box-click-test">
+                            Спасибо за ответы! Заполните форму ниже
+                        </h1>
+                    </div>
+
+                </div>
+        
+                <div class="box-slaider">
+                   
+                    <div class="box-slaider-content">
+                            
+                            <div class="box-slaider-content-active">
+                                <div class="slaid-one">
+                                    <div>
+                                        <h1>
+                                            Какие виды тестов вам нравятся?
+                                        </h1>
+                                    </div>
+                                    <div>
+                                        <p>
+                                            Многие из нас хоть раз попадались на эту удочку — 
+                                            хочешь пройти всего один тест из интернета, и вдруг понимаешь, что пролетело полдня.
+                                        </p>
+                                    </div>
+                                    <div class="types-of-tests">
+                                        
+                                        <button class="test"><img class="cross" src="img/favicon/cross.png" alt="cross"> На темперамент </button>
+                                        <button class="test"> <img class="cross" src="img/favicon/cross.png" alt="cross"> Кто я из вселенной Марвел </button>
+                                        <button class="test"> <img  class="cross" src="img/favicon/cross.png" alt="cross"> Увидел это </button>
+                                        <button class="test"> <img class="cross" src="img/favicon/cross.png" alt="cross"> Мое тотемное животное </button>
+                                        <button class="test"><img class="cross" src="img/favicon/cross.png" alt="cross"> На IQ </button>
+                                        <button class="test"><img class="cross" src="img/favicon/cross.png" alt="cross"> На словарный запас </button>
+                                        <button class="test"><img class="cross" src="img/favicon/cross.png" alt="cross"> На логическое мышление </button>
+                                        <button class="test"><img  class="cross" src="img/favicon/cross.png" alt="cross"> На уровень интеллекта </button>
+                                     
+                                    </div>
+        
+                                    
+                                        <button class="continue">Продолжить</button>
+                                    
+                                </div>
+                
+                                <div class="slaid-two">
+                                    <div class="slaid-two-test">
+                                        <h1>
+                                            Вы любите проходить тесты?
+                                        </h1>
+                                    </div>
+                                    <div class="slaid-two-test">
+                                        <p>
+                                            Нам важно узнать насолько часто Вы проходите тесты.
+                                        </p>
+                                    </div>
+                                    <div>
+                            
+                                        <div class="box-radio-btn">
+                                            
+                                            <div class="radio-btn">
+                                                <input type="radio" name="test" id="no" value="no">
+                                                <label for="no">Нет, я не никогда не прохожу тесты</label>
+                                            </div>
+                                            
+                                            <div class="radio-btn">
+                                                <input type="radio" name="test" id="yes" value="yes">
+                                                <label for="yes">Да, я прохожу все тесты</label>
+                                            </div>
+
+                                            <div class="radio-btn">
+                                                <input type="radio" name="test" id="force" value="force">
+                                                <label for="force">Заставляю себя проходить тесты</label>
+                                            </div>
+                                            
+                                            <div class="radio-btn">
+                                                <input type="radio" name="test" id="notToLove" value="notToLove">
+                                                <label for="notToLove">Не люблю проходить тесты, но иногда приходится</label>
+                                            </div>
+                                            
+                        
+                    
+                                            
+                                        </div>
+                
+                                    </div>
+                                    <div>
+                                        <button class="back">Назад</button>
+                                        <button class="continueTwo">Продолжить</button>
+                                    </div>
+                                </div>
+                
+                                <div class="slaid-three">
+                                    <div class="slaid-three-img">
+                                        <img src="img/favicon/smail.png" alt="smail">
+                                    </div>
+                                    <div class="slaid-three-form">
+                                        <h1>
+                                            Спасибо за ответы! Заполните форму ниже
+                                        </h1>
+                                    </div>
+                                    <div>
+                                        <p>
+                                            Ваше мнение важно для нас. 
+                                            Прикрепите фото с Вашей любимой картинкой и 
+                                            оставьте комментарий насколько понравился Вам тест.
+                                        </p>
+                                    </div>
+                                    <div class="box-forma">
+                                        <form class="forma" action="form">
+                                            <input type="text" placeholder="Ваше мнение сюда">
+                                            <select name="value">
+                                                <option value="">Очень понравился</option>
+                                                <option value="">Не понравился</option>
+                                                <option value="">Пройду еще раз</option>
+                                                <option value="">Посоветую пройти всем</option>
+                                              </select>
+                                        </form>
+                                    </div>
+                                    
+                                    <div>
+                                        <button class="back-three">Назад</button>
+                                        <button class="continue-three">Продолжить</button>
+                                    </div>
+                                </div>
+                            </div>
+                       
+        
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+   
+        <div class="box-slaider-reviews">
+            <div class="slaider-reviews">
+                <div class="slaider-img">
+                    <img src="img/andrey.png" alt="andrey">
+                    <img src="img/artur.png" alt="artur">
+                    <img src="img/timur.png" alt="timur">
+                    <img src="img/andrey.png" alt="andrey">
+                    <img src="img/artur.png" alt="artur">
+                    <img src="img/timur.png" alt="timur">
+                    <img src="img/andrey.png" alt="andrey">
+                    <img src="img/artur.png" alt="artur">
+                    <img src="img/timur.png" alt="timur">
+                </div>
+            </div>
+        </div>
+
+        <div class="button-left-right">
+            <button class="left">&lt;</button>
+            <button class="right">></button>
+        </div>
+    </main>
+
+
+    <footer>
+
+        <div class="footer">
+
+            <div class="box-contact">
+                <div class="box-contact-tel">
+                    <p>Телефон</p>
+                    <h1>+375 12 345 67 89</h1>
+                </div>
+                <div class="box-contact-email">
+                    <p>Email</p>
+                    <h1>ourmail@gmail.com</h1>
+                </div>
+    
+    
+            </div>
+    
+            <div class="box-info">
+                <div class="box-info-a">
+                    <a href="#"><img src="img/favicon/tic-tok.png" alt="tic-tok"></a>
+                    <a href="#"><img src="img/favicon/vk.png" alt="vk"></a>
+                    <a href="#"><img src="img/favicon/telegram.png" alt="telegram"></a>
+                </div>
+                <div class="box-info-h1">
+                    <h1>
+                        Super-Quiz
+                    </h1>
+                    
+                </div>
+            </div>
+        </div>
+
+       
+    </footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>

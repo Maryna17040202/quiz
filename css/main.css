@@ -1,0 +1,621 @@
+
+.box-smiley {
+    display: flex;
+    justify-content: center;
+}
+
+.box-smiley img {
+    width: 14vw;
+    height: 3vw;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    margin-top: 5vw;
+}
+
+.box-click-one {
+    width: 22%;
+    height: 31%;
+    margin-top: 0.6vw;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 4vw;
+    margin-left: 75vw;
+}
+
+
+
+
+
+.box-click-three {
+    width: 22%;
+    height: 31%;
+    margin-top: 0.6vw;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 4vw;
+    margin-left: 75vw;
+    display: none;
+}
+
+.box-click-two {
+    width: 22%;
+    height: 31%;
+    margin-top: 0.6vw;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 4vw;
+    margin-left: 75vw;
+    display: none;
+}
+
+.box-continue {
+    width: 22%;
+    height: 31%;
+    margin-top: 0.6vw;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 4vw;
+    margin-left: 75vw;
+    display: flex;
+}
+
+
+.box-click-test, .box-click-test-two {
+    width: 19vw;
+    padding: 1vw 0vw 0vw 2vw;
+    font-family: "Raleway", sans-serif;
+    font-size: 1.2vw;
+    font-weight: 700;
+}
+
+
+.click {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.box-one {
+    display: flex;
+    justify-content: center;
+}
+
+.box-slaider {
+    display: flex;
+    margin: 0vw 0vw 0vw 1vw;
+    
+    border-radius: 5vw;
+}
+
+.box-slaider-content {
+    display: flex;
+    width: 33%;
+    position: relative;
+    overflow: hidden;
+    padding: 1vw 0vw 0vw 1vw;
+    background-color: #ffffff;
+    border-radius: 4vw;
+}
+
+.box-slaider-content-active {
+    position: relative;
+    left: 0px;
+    display: flex;
+    width: 145vw;
+}
+
+.slaid-one h1 {
+    font-family: "Neue Machina", sans-serif;
+    font-size: 3vw;
+    font-weight: 700;
+    margin: 0;
+}
+
+.slaid-two h1  {
+    font-family: "Neue Machina", sans-serif;
+    font-size: 4vw;
+    font-weight: 700;
+}
+
+.slaid-one p {
+    font-family: "Raleway", sans-serif;
+    font-size: 1.2vw;
+    font-weight: 500;
+}
+
+.slaid-two {
+    padding: 2vw 2vw 2vw 2vw;
+}
+
+.slaid-two p {
+    font-family: "Raleway", sans-serif;
+    font-size: 1.2vw;
+    font-weight: 500;
+}
+
+
+.slaid-one, .slaid-two, .slaid-three {
+    width: 49vw;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    transition: 0.15s;
+}
+
+.slaid-three h1 {
+    font-family: "Neue Machina", sans-serif;
+    font-size: 4vw;
+    font-weight: 700;
+    margin: 0;
+}
+
+.slaid-three p {
+    font-family: "Raleway", sans-serif;
+    font-size: 1.3vw;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.box-forma {
+    display: flex;
+}
+
+.forma {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.forma input {
+    border: none;
+    border-bottom: 2px solid #000000;
+    width: 37vw;
+    height: 4vw;
+    font-size: 3vw;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    outline: none;
+}
+
+.forma select {
+    width: 22vw;
+    height: 4vw;
+    padding: 1vw 2vw 1vw 2vw;
+    border-radius: 2vw;
+    border: 2px solid #000000;
+    font-family: "Raleway", sans-serif;
+    font-size: 1.3vw;
+    font-weight: 500;
+    margin: 1vw 0vw 1vw 0vw;
+}
+
+
+.slaid-one {
+    left: 0vw;
+}
+
+.types-of-tests {
+    margin: 2vw 0vw 3vw 0vw;
+}
+
+.test {
+    padding: 8px 32px 8px 32px;
+    border-radius: 20px;
+    border: 2px solid #000000;
+    margin-bottom: 0.1vw;
+    background-color: #ffffff;
+    font-family: "Raleway", sans-serif;
+    font-size: 1.1vw;
+    font-weight: 500;
+}
+
+.box-radio-btn {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.radio-btn {
+    border: 2px solid #000000;
+    border-radius: 3vw;
+    padding: 0.5vw 0.5vw 0.5vw 0.5vw;
+    margin: 0vw 0vw 0.5vw 0vw;
+}
+
+.radio-btn input[type=radio]:checked + label:before {
+	background: #000000;
+}
+
+.radio-btn label:hover:before {
+	filter: brightness(150%);
+}
+
+.radio-btn label {
+    font-family: "Raleway", sans-serif;
+    font-size: 1vw;
+    font-weight: 500;
+}
+
+.test:hover {
+    background-color: #9e00ff;
+    border: 2px solid #9e00ff;
+    color: #ffffff;
+}
+
+.cross {
+    vertical-align: middle;
+    width: 15px;
+    height: 15px;
+    margin-right: 3px;
+    display: none;
+}
+
+.continue {
+    width: 13vw;
+    height: 3vw;
+    padding: 1vw 2vw 1vw 2vw;
+    border-radius: 1vw;
+    background-color: #000000;
+    color: #ffffff;
+    margin-bottom: 2vw;
+    font-size: 1vw;
+    font-weight: 500;
+}
+
+.continueTwo, .continue-three {
+    width: 13vw;
+    height: 3vw;
+    padding: 1vw 2vw 1vw 2vw;
+    border-radius: 1vw;
+    background-color: #000000;
+    color: #ffffff;
+    margin-bottom: 2vw;
+    font-family: Raleway;
+    font-size: 1vw;
+    font-weight: 500;
+
+}
+
+.back, .back-three {
+    width: 9vw;
+    height: 3vw;
+    padding: 1vw 2vw 1vw 2vw;
+    border-radius: 1vw;
+    margin-bottom: 2vw;
+    font-size: 1vw;
+    font-weight: 500;
+}
+
+.continue:hover, .continueTwo:hover, .back:hover, .back-three:hover, .continue-three:hover {
+    background-color: #9e00ff;
+    border: 2px solid #9e00ff;
+
+}
+
+.css-checkbox { 
+    position: absolute; 
+    overflow: hidden; 
+    clip: rect(0 0 0 0); 
+    height: 1px; 
+    width: 1px; 
+    margin: -1px; 
+    padding: 0; 
+    border: 0; 
+}
+
+.active {
+    display: inline;
+    margin: -0.3vw 1vw 0vw 0vw;
+}
+
+.active-color {
+    background-color: #000000;
+    border: 2px solid #000000;
+    color: #ffffff;
+}
+
+
+.box-slaider-reviews {
+    display: flex;
+    width: 97%;
+    margin: 0vw 0vw 0vw 11vw;
+}
+
+.slaider-reviews {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    width: 86%;
+}
+
+.slaider-img {
+    display: flex;
+    margin: 8vw 0vw 0vw -13vw;
+    position: relative;
+    left: 0;
+    transition: 0.15s;
+}
+
+.slaider-img img {
+    margin: 0vw 1vw 0vw 0vw;
+}
+
+.button-left-right {
+    display: flex;
+    justify-content: space-around;
+}
+
+.left {
+    width: 6vw;
+    height: 6vw;
+    border: none;
+    margin: -24vw 4vw 0vw -2vw;
+    background-color: #ffffff;
+    border-radius: 1vw;
+    font-size: 2vw;
+    transition: 0.15s;
+    z-index: 99;
+}
+
+.right {
+    width: 6vw;
+    height: 6vw;
+    border: none;
+    margin: -24vw -3vw 0vw 36vw;;
+    background-color: #ffffff;
+    border-radius: 1vw;
+    font-size: 2vw;
+    transition: 0.15s;
+    z-index: 99;
+}
+
+
+@media screen and (max-width:320px) {
+    .box-one {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .box-click-one {
+        width: 83vw;
+        height: 11vw;
+        margin-top: 0.6vw;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #000000;
+        color: #ffffff;
+        border-radius: 4vw;
+        margin-left: 80vw;
+    }
+
+    .box-click-test, .box-click-test-two {
+        width: 63vw;
+        padding: 1vw 0vw 0vw 2vw;
+        font-family: "Raleway", sans-serif;
+        font-size: 3.2vw;
+        font-weight: 700;
+    }
+
+    .box-slaider {
+        display: flex;
+        margin: 0vw 0vw 0vw 90vw;
+        border-radius: 5vw;
+    }
+
+    .box-slaider-content {
+        display: flex;
+        width: 33%;
+        position: relative;
+        overflow: hidden;
+        padding: 1vw 0vw 0vw 1vw;
+        background-color: #ffffff;
+        border-radius: 4vw;
+    }
+
+    .box-slaider-content-active {
+        position: relative;
+        left: 0px;
+        display: flex;
+        width: 151vw;
+    }
+
+   
+
+    .box-continue {
+        width: 83vw;
+        height: 11vw;
+        margin-top: 0.6vw;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #000000;
+        color: #ffffff;
+        border-radius: 4vw;
+        margin-left: 80vw;
+        display: flex;
+    }
+
+    .click {
+        background-color: #ffffff;
+        color: #000000;
+    }
+
+
+    .slaid-one h1 {
+        font-family: "Neue Machina", sans-serif;
+        font-size: 5vw;
+        font-weight: 700;
+        margin: 0;
+    }
+
+    .slaid-one p {
+        font-family: "Raleway", sans-serif;
+        font-size: 2.2vw;
+        font-weight: 800;
+    }
+
+    .test {
+        padding: 1vw 2vw 1vw 2vw;
+        border-radius: 20px;
+        border: 2px solid #000000;
+        margin-bottom: 0.1vw;
+        background-color: #ffffff;
+        font-family: "Raleway", sans-serif;
+        font-size: 3.3vw;
+        font-weight: 500;
+    }
+
+    .cross {
+        vertical-align: middle;
+        width: 4vw;
+        height: 4vw;
+    }
+
+    .active-color {
+        background-color: #000000;
+        border: 2px solid #000000;
+        color: #ffffff;
+    }
+
+    .continue {
+        width: 47vw;
+        height: 4vw;
+        padding: 1vw 2vw 5vw 2vw;
+        border-radius: 4vw;
+        background-color: #000000;
+        color: #ffffff;
+        margin-bottom: 2vw;
+        font-size: 4vw;
+        font-weight: 500;
+    }
+
+    .slaid-two h1 {
+        font-family: "Neue Machina", sans-serif;
+        font-size: 5vw;
+        font-weight: 700;
+    }
+
+    .slaid-two-test {
+        width: 50vw;
+        height: 22vw;
+    }
+
+    .slaid-two h1 {
+        font-family: "Neue Machina", sans-serif;
+        font-size: 6vw;
+        font-weight: 700;
+    }
+
+    .slaid-two p {
+        font-family: "Raleway", sans-serif;
+        font-size: 4.2vw;
+        font-weight: 600;
+    }
+
+    .box-radio-btn {
+        display: flex;
+        flex-wrap: wrap;
+        width: 45vw;
+    }
+    
+    .radio-btn label {
+        font-family: "Raleway", sans-serif;
+        font-size: 4vw;
+        font-weight: 500;
+    }
+
+    .back, .back-three {
+        width: 20vw;
+        height: 6vw;
+        padding: 1vw 2vw 1vw 2vw;
+        border-radius: 3vw;
+        margin-bottom: 2vw;
+        font-size: 3vw;
+        font-weight: 500;
+    }
+
+    .continueTwo, .continue-three {
+        width: 23vw;
+        height: 6vw;
+        padding: 1vw 2vw 1vw 2vw;
+        border-radius: 3vw;
+        background-color: #000000;
+        color: #ffffff;
+        margin-bottom: 2vw;
+        font-family: Raleway;
+        font-size: 3vw;
+        font-weight: 500;
+    }
+
+    .slaid-three-img {
+        width: 35vw;
+        height: 21vw;
+    }
+
+    .slaid-three-img img {
+        width: 35vw;
+    }
+
+    .slaid-three-form {
+        width: 42vw;
+    }
+
+
+    .slaid-three h1 {
+        font-family: "Neue Machina", sans-serif;
+        font-size: 7vw;
+        font-weight: 700;
+        margin: 0;
+    }
+
+    .slaid-three p {
+        font-family: "Raleway", sans-serif;
+        font-size: 3.3vw;
+        font-weight: 700;
+    }
+
+
+    .slaider-img img {
+        width: 85vw;
+    }
+
+    .left {
+        width: 15vw;
+        height: 15vw;
+        border: none;
+        margin: -24vw 4vw 0vw 2vw;
+        background-color: #ffffff;
+        border-radius: 1vw;
+        font-size: 9vw;
+        transition: 0.15s;
+        z-index: 99;
+    }
+
+    .right {
+        width: 15vw;
+        height: 15vw;
+        border: none;
+        margin: -24vw -3vw 0vw 28vw;
+        background-color: #ffffff;
+        border-radius: 1vw;
+        font-size: 9vw;
+        transition: 0.15s;
+        z-index: 99;
+    }
+
+
+    
+
+}
